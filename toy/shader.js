@@ -29,7 +29,7 @@ var Shader = function (renderer, config) {
     position: [-1, -1, 0, 1, -1, 0, -1, 1, 0, -1, 1, 0, 1, -1, 0, 1, 1, 0]
   };
   this.bufferInfo = twgl.createBufferInfoFromArrays(this.renderer, arrays);
-  this.mouse = [0, 0, 0, 0];
+  this.mouse = [0, 0, 0];
   this.transition = 1;
   this.uniforms = config.uniforms;
 };
